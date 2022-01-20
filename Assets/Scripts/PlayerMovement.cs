@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(score>=2)
+        if(score>=4)
         {
             SceneManager.LoadScene("GameWin");
         }
